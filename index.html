@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL-AWADHI LANGUAGE SCHOOL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AL-AWADHI LANGUAGE SCHOOL</h1>
+        <nav>
+            <ul>
+                <li><a href="#lessons">Lessons</a></li>
+                <li><a href="#quizzes">Quizzes</a></li>
+                <li><a href="#progress">Progress</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="intro">
+        <h2>Welcome to AL-AWADHI LANGUAGE SCHOOL!</h2>
+        <p>Choose your language to begin your learning journey:</p>
+        <div id="language-select">
+            <button onclick="setLanguage('arabic')">Arabic</button>
+            <button onclick="setLanguage('english')">English</button>
+            <button onclick="setLanguage('spanish')">Spanish</button>
+            <button onclick="setLanguage('dutch')">Dutch</button>
+            <button onclick="setLanguage('swahili')">Swahili</button>
+            <button onclick="setLanguage('french')">French</button>
+            <button onclick="setLanguage('chinese')">Chinese</button>
+        </div>
+    </section>
+
+    <section id="lessons">
+        <h2>Lessons</h2>
+        <div id="lesson-content"></div>
+    </section>
+
+    <section id="quizzes">
+        <h2>Quizzes</h2>
+        <div id="quiz-content"></div>
+    </section>
+
+    <section id="progress">
+        <h2>Your Progress</h2>
+        <p>Your current progress will be shown here!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 AL-AWADHI LANGUAGE SCHOOL. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
