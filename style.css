@@ -1,0 +1,119 @@
+/* Landing Page */
+body.landing-page {
+  background-color: #121212;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.landing-content {
+  text-align: center;
+}
+
+.title {
+  font-size: 48px;
+  color: gold;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.enter-button {
+  background-color: gold;
+  color: black;
+  font-size: 18px;
+  padding: 10px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.enter-button:hover {
+  background-color: #f5a623;
+}
+
+/* Countries Page */
+header {
+  background-color: #121212;
+  padding: 20px;
+  text-align: center;
+}
+
+#searchBar {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  margin: 20px auto;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.country-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.country {
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+}
+
+.country img {
+  width: 100px;
+  height: 60px;
+  object-fit: contain;
+}
+
+/* Quiz Page */
+.quiz-page {
+  background-color: #121212;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: gold;
+  font-size: 36px;
+}
+
+.question {
+  margin: 20px 0;
+}
+
+.submit-button {
+  background-color: gold;
+  padding: 10px 30px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  border-radius: 25px;
+}
+
+.submit-button:hover {
+  background-color: #f5a623;
+}
+
+#score {
+  font-size: 24px;
+  font-weight: bold;
+  color: gold;
+  text-align: center;
+}
